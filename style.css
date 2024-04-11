@@ -1,0 +1,79 @@
+
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+.navbar{
+    height: 90px;
+    background-color: black;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.navbar-brand{
+    height: 40px;
+    padding-left: 20px;
+}
+.navbar .nav-link{
+    color: white;
+}
+.navbar .menu-icon{
+    color: white;
+}
+.image-1{
+    width: 100%;
+}
+.first{
+    background-color: rgb(240, 145, 48);;
+}
+#imag-2{
+    height: 420px;
+    width: 160px;
+}
+.fan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+    margin-top: 200px;
+    
+}
+.sub{
+    position: absolute;
+    text-align: center;
+    z-index: 3;
+}
+
+.imag-3{
+    width: 100%;
+
+}
+.text-main{
+    font-family: sans-serif;
+    margin: 100px;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
+.sub
+{
+    font-size: 70px;
+    font-style: inherit;
+    font-weight: 900;
+    color: white;
+}
+.footer-condent{
+    height: 267px;
+    width: 1266;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 70px;
+    font-size: 15px;
+    
+}
+.footer-condent > div > ul > li > a{
+    text-decoration: none;
+    color: black;
+}
